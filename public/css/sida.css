@@ -1,0 +1,249 @@
+
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
+/*-- main --*/
+h2.sida {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 1.2em;
+    background: #02a299;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+p {
+    margin: 10px 30px;
+    font-weight: normal;
+}
+p.sida1{
+    margin: 10px 30px;
+    font-weight: normal;
+    float: right;
+}
+.login-form {
+    width: 35%;
+    margin: 3.5em auto;
+    background: rgba(12, 85, 105, 0.51);
+    padding-bottom: 4em;
+}
+.agileits-top {
+    padding: 2em 3em 3em;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+    font-size: 1em;
+    color: #fff;
+    padding: 0.8em 1em;
+    border: 0;
+    width: 93%;
+    border-bottom: 1px solid #c7c7c7;
+    background: none;
+    -webkit-appearance: none;
+}
+/*-- input-effect --*/
+.styled-input input:focus ~ label, .styled-input input:valid ~ label {
+    font-size: 1.1em;
+    color: #02a299;
+    top: -2em;
+    -webkit-transition: all 0.125s ease;
+    transition: all 0.125s ease;
+}
+.styled-input {
+  width:100%;
+  margin: 2em 0 1em;
+  position: relative;
+}
+
+.styled-input label {
+    color: #fff;
+    padding: 0.8em 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: 1em;
+    display: block;
+    line-height: 1em;
+}
+.styled-input input ~ span {
+  display: block;
+  width: 0;
+  height:2px;
+  background:#fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.125s ease;
+  transition: all 0.125s ease; 
+}
+.login-box .remember {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+        padding-top: 15px;
+        color: #E8E7E7;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.styled-input input:focus { outline: 0; }
+
+.styled-input input:focus ~ span {
+     width: 100%;
+    -webkit-transition: all 0.075s ease;
+      transition: all 0.075s ease;
+      font-family: 'OpenSans-Regular';
+} 
+/*-- //input-effect --*/
+.login-form p {
+    font-size: 1em;
+    color: #fff;
+    margin: 1em 0 .5em;
+}
+/*-- checkbox --*/
+.wthree-text input[type="checkbox"] {
+    display: none;
+}
+.wthree-text input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 1.8em;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    display: block; 
+}
+.wthree-text input[type="checkbox"]+label span:first-child {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 0;
+	top: 2px; 
+}
+.wthree-text input[type="checkbox"]:checked+label span:first-child:before {
+    content: "";
+    background: url(../images/tick.png)no-repeat;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+/*-- //checkbox --*/
+.wthree-text {
+    margin-top: 3em;
+}
+.wthree-text ul li{
+	display:inline-block;
+	float: left;
+}
+.wthree-text ul li:nth-child(2) {
+    float: right;
+}
+.wthree-text ul li a{
+	font-size:1em;
+    color: #fff;
+}
+.wthree-text ul li a:hover{
+    color: #02a299;
+}
+.agileits-bottom{
+	position:relative;
+}
+.agileits-bottom:before {
+    content: '';
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-right: 18px solid #fff;
+	transition:.5s all ease;
+}
+.agileits-bottom:after {
+    content: '';
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-left: 17px solid #fff;
+    border-top: 17px solid transparent;
+	transition:.5s all ease;
+}
+.agileits-bottom input[type="submit"] {
+    font-size: 1.5em;
+    color: #02a299;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    padding: 1em 0;
+    -webkit-appearance: none;
+    border: none;
+    width: 106%; 
+    margin-left: -0.7em;
+    text-transform: uppercase; 
+}
+.agileits-bottom input[type="submit"]:hover {
+    color: #FFF;
+    background: #02a299;
+	transition:.5s all ease;
+}
+.agileits-bottom:hover:before {
+    border-right-color:#02a299;
+}
+.agileits-bottom:hover:after {
+	border-left-color:#02a299;
+}
+/*-- //main --*/
+/*-- copyright --*/
+.copyright {
+    margin: 2em 0;
+    text-align: center;
+}
+.copyright p {
+    font-size: 1em;
+    color: #fff;
+	line-height:1.8em;
+}
+.copyright p a{
+    color: #fff; 
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+.copyright p a:hover{
+    color: #000;	
+}
+/*-- //copyright --*/
+/*-- responsive-design --*/
+@media(max-width:1440px){
+.agileits-bottom input[type="submit"] { 
+    width: 106.8%; 
+}
+h1#tao{
+    margin-top:50px;
+    color: white;
+}
